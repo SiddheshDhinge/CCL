@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Results</title>
+    <style>
+      table, th, td, tr{
+        border: 1px solid black;
+      }
+      body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      th, td{
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TimeZone Details</h1>
+    <br>
+    <table>
+      <tr>
+        <th>Date</th>
+        <td> {{ date }} </td>
+      </tr>
+      <tr>
+        <th>Time</th>
+        <td> {{ time }}</td>
+      </tr>
+      <tr>
+        <th>Day of Week</th>
+        <td> {{ week }} </td>
+      </tr>
+      <tr>
+        <th>Day of Year</th>
+        <td> {{ year }}</td>
+      </tr>
+      <tr>
+        <th>Week Number</th>
+        <td> {{ weeknum }} </td>
+      </tr>
+    </table>
+  </body>
+</html>
